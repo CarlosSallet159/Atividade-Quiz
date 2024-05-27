@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo de Quiz</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <h1>Jogo de quiz</h1>
-    <input type="text" id="messageInput" placeholder="Type a message">
-    <button id="sendButton">Enviar</button>
-    <ul id="messages"></ul>
 
+<body>
+    <div class="quiz-container">
+        <div id="mensagem-boas-vindas"></div>
+        <h1 id="estado-jogo">Aguardando jogadores...</h1>
+        <div id="mensagens"></div>
+        <div id="quiz" data-indice-pergunta=""></div>
+        <button id="enviar">Enviar Resposta</button>
+        <div id="resultados"></div>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>

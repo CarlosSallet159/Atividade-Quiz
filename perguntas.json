@@ -1,0 +1,152 @@
+[
+    {
+        "pergunta": "Qual cidade é conhecida como A Cidade Eterna?",
+        "opcoes": [
+            "Roma",
+            "Londres",
+            "Dourados",
+            "Berlim"
+        ],
+        "respostaCorreta": "Roma"
+    },
+    {
+        "pergunta": "Quem descobriu que a Terra gira em torno do Sol?",
+        "opcoes": [
+            "Nicolau Copérnico",
+            "Gugu Liberato",
+            "Albert Einstein",
+            "Kratos"
+        ],
+        "respostaCorreta": "Nicolau Copérnico"
+    },
+    {
+        "pergunta": "Qual é o pássaro mais rápido do mundo?",
+        "opcoes": [
+            "Águia",
+            "Urubu",
+            "Falcão-peregrino",
+            "Pica-pau"
+        ],
+        "respostaCorreta": "Falcão-peregrino"
+    },
+    {
+        "pergunta": "De quem é a famosa frase “Penso, logo existo”?",
+        "opcoes": [
+            "Platão",
+            "Galileu Galilei",
+            "Descartes",
+            "Sócrates"
+        ],
+        "respostaCorreta": "Descartes"
+    },
+    {
+        "pergunta": "De onde é a invenção do chuveiro elétrico?",
+        "opcoes": [
+            "França",
+            "Inglaterra",
+            "Brasil",
+            "Austrália"
+        ],
+        "respostaCorreta": "Brasil"
+    },
+    {
+        "pergunta": "Quais o menor e o maior país do mundo?",
+        "opcoes": [
+            "Vaticano e Rússia",
+            "Nauru e China",
+            "Mônaco e Canadá",
+            "Malta e Estados Unidos"
+        ],
+        "respostaCorreta": "Vaticano e Rússia"
+    },
+    {
+        "pergunta": "Qual o nome do presidente do Brasil que ficou conhecido como Jango?",
+        "opcoes": [
+            "Getúlio Vargas",
+            "Jânio Quadros",
+            "João Figueiredo",
+            "João Goulart"
+        ],
+        "respostaCorreta": "João Goulart"
+    },
+    {
+        "pergunta": "Qual o livro mais vendido no mundo a seguir à Bíblia?",
+        "opcoes": [
+            "O Senhor dos Anéis",
+            "Dom Quixote",
+            "O Pequeno Príncipe",
+            "Um Conto de Duas Cidades"
+        ],
+        "respostaCorreta": "Dom Quixote"
+    },
+    {
+        "pergunta": "Quantas casas decimais tem o número pi?",
+        "opcoes": [
+            "Duas",
+            "Centenas",
+            "Infinitas",
+            "Vinte"
+        ],
+        "respostaCorreta": "Infinitas"
+    },
+    {
+        "pergunta": "Atualmente, quantos elementos químicos a tabela periódica possui?",
+        "opcoes": [
+            "113",
+            "109",
+            "108",
+            "118"
+        ],
+        "respostaCorreta": "118"
+    },
+    {
+        "pergunta": "O que a palavra legend significa em português?",
+        "opcoes": [
+            "Legenda",
+            "Lenda",
+            "Conto",
+            "Legendário"
+        ],
+        "respostaCorreta": "Lenda"
+    },
+    {
+        "pergunta": "Qual o número mínimo de jogadores em cada time numa partida de futebol?",
+        "opcoes": [
+            "8",
+            "10",
+            "9",
+            "7"
+        ],
+        "respostaCorreta": "7"
+    },
+    {
+        "pergunta": "Quem pintou Guernica?",
+        "opcoes": [
+            "Paul Cézanne",
+            "Pablo Picasso",
+            "Diego Rivera",
+            "Tarsila do Amaral"
+        ],
+        "respostaCorreta": "Pablo Picasso"
+    },
+    {
+        "pergunta": "Quanto tempo a luz do Sol demora para chegar à Terra?",
+        "opcoes": [
+            "12 minutos",
+            "1 dia",
+            "12 horas",
+            "8 minutos"
+        ],
+        "respostaCorreta": "8 minutos"
+    },
+    {
+        "pergunta": "Qual a tradução da frase 'Fabiano cogió su saco antes de salir'?",
+        "opcoes": [
+            "Fabiano fechou o saco antes de sair",
+            "Fabiano pegou seu paletó antes de sair",
+            "Fabiano rasgou o saco antes de cair",
+            "Fabiano dobrou o saco antes de sair"
+        ],
+        "respostaCorreta": "Fabiano pegou seu paletó antes de sair"
+    }
+]
