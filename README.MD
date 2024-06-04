@@ -6,7 +6,7 @@
 
 ## Tutorial para instalação do jogo:
  - Clone o repositório do GitHub: https://github.com/CarlosSallet159/Atividade-Quiz.git
- - Caso não tenha as dependencias necessárias (express e websocket) instale-as, digitando "npm install express" e "npm install ws".
+ - Digite no console da IDE, "npm install".
  - Inicie o servidor digitando "node server.js".
  - No navegador, digite o link "localhost:3000" e acesse.
  - Aproveite o jogo.
