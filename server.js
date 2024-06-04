@@ -116,7 +116,7 @@ function enviarPontuacoesParaJogadores() {
 
 function iniciarTemporizadorJogo() {
     jogoAtivo = true;
-    const tempoJogo = 60000; // 60 segundos
+    const tempoJogo = 60000;
     setTimeout(() => {
         jogoAtivo = false;
         finalizarJogo();
@@ -149,7 +149,7 @@ function finalizarJogo() {
         jogador.send(JSON.stringify({ tipo: 'resultadoFinal', mensagem: mensagemVencedor }));
     });
 
-    // Reiniciar o estado do jogo
+    
     indicePerguntaAtual = 0;
     pontuacoes = {};
     finalizado = {};

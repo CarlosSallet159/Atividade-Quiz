@@ -17,12 +17,10 @@ ws.onmessage = (event) => {
         exibirResultados(data.resultado);
     } else if (data.tipo === 'atualizacaoPontuacao') {
         atualizarPontuacoes(data.pontuacoes);
-    } else if (data.tipo === 'resultadoFinal') {
+    } else if (data.tipo === 'resultadoFinal' || data.tipo === 'jogoEncerrado') {
         exibirResultadoFinal(data.mensagem);
         desabilitarQuiz();
-    } else if (data.tipo === 'jogoEncerrado') {
-        exibirResultadoFinal(data.mensagem);
-        desabilitarQuiz();
+        mostrarBotaoReiniciar();
     }
 };
 
@@ -42,6 +40,10 @@ document.getElementById('enviar').onclick = () => {
     }
     const indicePergunta = document.getElementById('quiz').getAttribute('data-indice-pergunta');
     ws.send(JSON.stringify({ tipo: 'enviarRespostas', respostas: respostas, indicePergunta: parseInt(indicePergunta) }));
+};
+
+document.getElementById('reiniciar').onclick = () => {
+    window.location.reload();
 };
 
 function exibirPergunta(pergunta, indicePergunta) {
@@ -68,7 +70,7 @@ function atualizarPontuacoes(pontuacoes) {
     for (let idJogador in pontuacoes) {
         mensagemPontuacao += `Jogador ${parseInt(idJogador) + 1} - ${pontuacoes[idJogador]}, `;
     }
-    estadoJogoDiv.textContent = mensagemPontuacao.slice(0, -2); // Remove a última vírgula e espaço
+    estadoJogoDiv.textContent = mensagemPontuacao.slice(0, -2);
 }
 
 function exibirResultadoFinal(mensagem) {
@@ -81,6 +83,10 @@ function desabilitarQuiz() {
     const botoes = document.querySelectorAll('input[name="resposta"]');
     botoes.forEach(botao => botao.disabled = true);
     document.getElementById('enviar').disabled = true;
+}
+
+function mostrarBotaoReiniciar() {
+    document.getElementById('reiniciar').style.display = 'block';
 }
 
 function obterRespostaSelecionada() {
